@@ -1,0 +1,11 @@
+{
+    "name": "avitest",
+    "version": 2,
+    "builds": [
+      { "src": "lib/assets/*", "use": "@now/static" },
+      { "src": "lib/now.js", "use": "@now/node-server" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/lib/now.js" }
+    ]
+}

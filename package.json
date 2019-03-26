@@ -1,0 +1,11 @@
+{
+    "name": "avitest",
+    "version": "0.0.1",
+    "description": "avitest for now",
+    "dependencies": {
+        "esm": "^3.2.20",
+        "express": "^4.16.4"
+    },
+    "license": "MIT",
+    "devDependencies": {}
+}
