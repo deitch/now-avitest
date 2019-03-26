@@ -1,5 +1,6 @@
 {
     "name": "avitest",
+    "public": true,
     "version": 2,
     "builds": [
       { "src": "lib/assets/*", "use": "@now/static" },
